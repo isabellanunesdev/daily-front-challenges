@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha conta - Itaú</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <nav class="container">
+      <div class="left-block">
+        <button>
+          <h1>IN</h1>
+        </button>
+        <h2>Isabella</h2>
+      </div>
+      <div class="right-block">
+        <button>
+          <img src="./img/search.png" alt="Procurar por um nome" />
+        </button>
+        <button>
+          <img src="./img/msg.png" alt="Fale com seu gerente" />
+        </button>
+      </div>
+    </nav>
+    <main class="container">
+      <section class="my-account">
+        <span>meu Itaú</span>
+        <button class="show-info-container">
+          <img
+            class="show-info"
+            src="./img/closed.png"
+            alt="Visibilidade de dados limitada"
+          />
+        </button>
+      </section>
+      <section class="actions">
+        <button>
+          <img src="./img/pix.png" alt="Faça um pix" />
+          <p>Pix e tranferir</p>
+        </button>
+        <button>
+          <img src="./img/pay.png" alt="Faça um pagamento" />
+          <p>pagar</p>
+        </button>
+        <button>
+          <img src="./img/card.png" alt="Use seu cartão virtual" />
+          <p>cartão virtual</p>
+        </button>
+      </section>
+      <section>
+        <div class="card">
+          <img class="logo" src="./img/logo.png" alt="Itaú" />
+          <div class="money">
+            <span>saldo em conta</span>
+            <div class="money-view-container">
+              <img
+                class="money-view"
+                src="./img/more-black.png"
+                alt="Saldo oculto"
+              />
+            </div>
+          </div>
+          <hr class="divider" />
+          <div class="transactions">
+            <span>conferir extrato</span>
+            <button>
+              <img src="./img/blue-arrow.png" alt="Conferir seu extrato" />
+            </button>
+          </div>
+          <div class="limits">
+            <span>Limite da Conta disponível</span>
+            <div class="limits-actions">
+              <div class="limit-view-container">
+                <img
+                  class="limit-view"
+                  src="./img/more-gray.png"
+                  alt="Conferir seu limite"
+                />
+              </div>
+              <button>
+                <img src="./img/gray-arrow.png" alt="Conferir seu limite" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
