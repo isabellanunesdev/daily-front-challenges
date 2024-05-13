@@ -7,3 +7,167 @@
 
   --font: "Poppins", sans-serif;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
+
+img {
+  width: 2rem;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: var(--font);
+  transition: 200ms all ease;
+}
+
+.container {
+  padding: 1rem 1.5rem;
+}
+
+nav {
+  width: 100%;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.left-block button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: var(--gray-bkg);
+}
+
+.left-block button h1 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.left-block h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.right-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.right-block button {
+  background: none;
+  border: none;
+}
+
+main {
+  background-color: var(--gray-bkg);
+  height: 100%;
+}
+
+.my-account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.my-account span {
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.actions button {
+  background-color: var(--white);
+  padding: 0.5rem;
+  width: 6rem;
+  border-radius: 15%;
+  text-align: left;
+  display: flex;
+  gap: 0.8rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.card {
+  border: 1px var(--gray-border) solid;
+  padding: 1rem;
+  border-radius: 5%;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin-bottom: 1.5rem;
+}
+
+.money {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divider {
+  background-color: var(--gray-border);
+}
+
+.transactions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.transactions span {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.limits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.7rem;
+  padding: 0.4rem;
+  background-color: var(--gray-bkg);
+  border-radius: 0.4rem;
+  font-weight: 600;
+}
+
+.limits-actions {
+  display: flex;
+  align-items: center;
+}
