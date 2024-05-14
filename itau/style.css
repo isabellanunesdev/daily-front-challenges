@@ -74,10 +74,40 @@ body {
   justify-content: space-between;
   padding: 0 30px;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .container__info h2 {
   font-weight: 700;
   font-size: 36px;
+}
+
+.container__buttons {
+  margin-top: 60px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+
+.container__buttons div {
+  width: 30%;
+  height: 180px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 24px;
+}
+
+.container__buttons img {
+  width: 30%;
+}
+
+.container__buttons h2 {
+  max-width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 8px 16px;
 }
