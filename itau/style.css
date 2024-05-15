@@ -133,15 +133,15 @@ body {
 
 .extract--balance {
   margin-top: 25px;
-  border-bottom: 1px solid var(--gray-border);
   justify-content: space-between;
-  padding: 15px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
 }
 
-.extract--balance span {
-  font-size: 26px;
-  cursor: pointer;
-  font-weight: 700;
+.extract--balance img {
+  width: 100px;
+  height: 100px;
 }
 
 .extract--check {
@@ -175,7 +175,6 @@ body {
   width: 80px;
 }
 
-.limit--arrow span {
-
-  font-size: 32px;
+.hide-limit, .hide-balance {
+  display: none;
 }
