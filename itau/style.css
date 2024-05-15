@@ -85,3 +85,27 @@ header img {
   height: 40px;
   border-color: var(--white-bkg);
 }
+
+
+
+.conteiner__banking-functions {
+  display: flex;
+  gap: 20px;
+}
+
+.banking-functions {
+  background-color: var(--white);
+  height: 110px;
+  width: 110px;
+  border-radius: 15px;
+}
+
+.banking-functions img {
+  height: 40px;
+}
+
+.banking-functions p {
+  font-weight: bolder;
+  margin-left: 8px;
+  margin-bottom: 0px;
+}
