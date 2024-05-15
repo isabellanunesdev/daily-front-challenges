@@ -89,6 +89,8 @@ header img {
 
 
 .conteiner__banking-functions {
+  margin-top: 20px;
+  margin-bottom: 30px;
   display: flex;
   gap: 20px;
 }
@@ -107,5 +109,13 @@ header img {
 .banking-functions p {
   font-weight: bolder;
   margin-left: 8px;
-  margin-bottom: 0px;
+}
+
+
+
+.bank-balance-area {
+  background-color: var(--white);
+  height: 200px;
+  width: 370px;
+  border-radius: 15px;
 }
