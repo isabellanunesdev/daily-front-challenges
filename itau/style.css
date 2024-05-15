@@ -7,3 +7,22 @@
 
   --font: "Poppins", sans-serif;
 }
+
+
+.main-container {
+  background-color: var(--white-bkg);
+  width: 422px;
+  height: 636px;
+  margin: auto;
+}
+
+header {
+  background-color: var(--blue);
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 40px;
+}
