@@ -8,7 +8,6 @@
   --font: "Poppins", sans-serif;
 }
 
-
 .main-container {
   background-color: var(--white-bkg);
   width: 422px;
@@ -56,4 +55,33 @@ header img {
 
 .header__search-img {
   padding-right: 10px;
+}
+
+
+
+.main-content {
+  margin-top: 40px;
+  margin-left: 18px;
+}
+
+.visibility-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.visibility-button {
+  border: none;
+  display: flex;
+  height: 20px;
+  width: 26px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin-right: 35px;
+}
+
+.visibility-img {
+  height: 40px;
+  border-color: var(--white-bkg);
 }
