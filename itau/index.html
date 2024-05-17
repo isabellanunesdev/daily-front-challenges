@@ -33,7 +33,9 @@
     <div class="nav-container">
       <div class="top-nav">
         <h1>meu Itaú</h1>
-        <img src="./img/closed.png" alt="olho fechado" />
+        <button id="toggle-button">
+          <img id="toggle-image" src="./img/closed.png" alt="olho fechado" />
+        </button>
       </div>
       <nav>
         <a href="#">
@@ -61,7 +63,7 @@
       <div class="main-container">
         <div class="spacing">
           <h2>saldo em conta</h2>
-          <img src="./img/more-black.png" alt="pontos" />
+          <span id="saldo-text" class="dots-text">....</span>
         </div>
         <hr />
         <div class="container-footer-main">
@@ -72,12 +74,13 @@
           <div class="footer-main spacing">
             <h3>Limite da Conta disponível</h3>
             <div class="image-spacing">
-              <img src="./img/more-gray.png" alt="" />
+              <span id="limite-text" class="dots-text">....</span>
               <img src="./img/gray-arrow.png" alt="seta" />
             </div>
           </div>
         </div>
       </div>
     </main>
+    <script src="./js/script.js"></script>
   </body>
 </html>

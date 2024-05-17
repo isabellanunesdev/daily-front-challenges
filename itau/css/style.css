@@ -108,7 +108,7 @@ main h2 {
   align-items: center;
   background-color: var(--white-bkg);
   border-radius: 0.625rem;
-  padding: 0.6rem;
+  padding: 0.6rem 0.2rem;
 }
 
 .footer-main h3 {
@@ -116,8 +116,12 @@ main h2 {
 }
 
 .image-spacing {
-  width: 4rem;
-  height: 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.dots-text {
+  font-size: 0.8rem;
 }

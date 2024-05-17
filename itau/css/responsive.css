@@ -18,6 +18,10 @@
   .nav-container-block h2 {
     font-size: 1.3rem;
   }
+
+  .dots-text {
+    font-size: 1rem;
+  }
 }
 
 /* tela desktop */
@@ -52,5 +56,9 @@
 
   .footer-main h3 {
     font-size: 1rem;
+  }
+
+  .dots-text {
+    font-size: 1.5rem;
   }
 }
