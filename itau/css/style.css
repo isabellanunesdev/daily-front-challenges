@@ -1,0 +1,123 @@
+@import url(./variables.css);
+@import url(./reset.css);
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--blue);
+  padding: 1rem;
+}
+
+.top-left {
+  color: var(--white);
+  display: flex;
+  align-items: center;
+}
+
+.user-logo {
+  margin-right: 1rem;
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-variant: small-caps;
+}
+
+.top-right img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+/* Nav */
+.nav-container {
+  margin: 2rem;
+}
+
+.nav-container img,
+.nav-container-block img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-container-block {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  border-radius: 0.625rem;
+  width: 23vw;
+  height: 23vw;
+  background-color: var(--white);
+}
+
+.nav-container-block h2 {
+  margin: 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Main */
+main {
+  background-color: var(--white);
+  border: 2px solid var(--gray-border);
+  border-radius: 0.625rem;
+  padding: 1.5rem;
+  margin: 2rem;
+}
+
+main img {
+  width: 2rem;
+  height: 2rem;
+}
+
+main h2 {
+  font-weight: 400;
+}
+
+/* Spacing */
+.spacing {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.75rem 0;
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+/* Footer */
+.footer-main {
+  display: flex;
+  align-items: center;
+  background-color: var(--white-bkg);
+  border-radius: 0.625rem;
+  padding: 0.6rem;
+}
+
+.footer-main h3 {
+  font-size: 0.75rem;
+}
+
+.image-spacing {
+  width: 4rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+}

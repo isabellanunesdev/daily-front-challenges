@@ -1,0 +1,56 @@
+/* tela media */
+
+@media (min-width: 670px) {
+  .nav-container-block {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+    width: 25vw;
+    height: 17vw;
+  }
+
+  .nav-container img,
+  .nav-container-block img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .nav-container-block h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* tela desktop */
+@media (min-width: 1050px) {
+  h1,
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .nav-container-block {
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem;
+    width: 30vw;
+    height: 15vw;
+  }
+
+  .nav-container-block h2 {
+    font-size: 2rem;
+  }
+
+  .nav-container img,
+  .nav-container-block img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  main h2 {
+    font-size: 1.5rem;
+  }
+
+  .footer-main h3 {
+    font-size: 1rem;
+  }
+}
