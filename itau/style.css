@@ -119,3 +119,14 @@ header img {
   width: 370px;
   border-radius: 15px;
 }
+
+.itau-logo {
+  height: 40px;
+  margin: 20px;
+}
+
+.account-balance {
+  display: flex;
+  justify-content: space-between;
+  margin: -15px 20px auto 20px;
+}
