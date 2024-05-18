@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
             visibilityImg.src = closedEyeSrc;
             balanceImage.innerHTML = balanceHiddenImg;
             limitImage.innerHTML = limitHiddenImg;
-        } else {
+        }else {
             visibilityImg.src = openEyeSrc
             balanceImage.textContent = balanceValue;
             limitImage.textContent = limitValue;

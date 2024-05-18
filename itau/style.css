@@ -57,8 +57,6 @@ header img {
   padding-right: 10px;
 }
 
-
-
 .main-content {
   margin-top: 40px;
   margin-left: 18px;
@@ -86,8 +84,6 @@ header img {
   border-color: var(--white-bkg);
 }
 
-
-
 .conteiner__banking-functions {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -112,11 +108,9 @@ header img {
   margin-left: 8px;
 }
 
-
-
 .bank-balance-area {
   background-color: var(--white);
-  height: 250px;
+  height: 260px;
   width: 370px;
   border-radius: 15px;
 }
@@ -153,7 +147,6 @@ header img {
   height: 40px;
 }
 
-
 .available-limit {
   background-color: var(--gray-bkg);
   font-weight: bolder;
@@ -164,4 +157,5 @@ header img {
   margin: 5px 20px auto 20px;
   border-radius: 5px;
   cursor: pointer;
+  height: 50px;
 }
