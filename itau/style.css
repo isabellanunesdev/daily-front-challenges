@@ -134,7 +134,7 @@ header img {
 
 .bottom-line {
   width: 330px;
-  margin: auto;
+  margin: -10px auto auto auto;
   border: 1px solid black;
 }
 

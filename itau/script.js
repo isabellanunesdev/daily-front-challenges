@@ -10,16 +10,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const openEyeSrc = "img/open.png";
     const closedEyeSrc = "img/closed.png";
 
-    const balanceHidenImg = '<img src="img/more-black.png" alt="balance hiden image">';
-    const limitHidenImg = '<img src="img/more-gray.png" alt="limit hiden image">'
+    const balanceHiddenImg = '<img src="img/more-black.png" alt="balance hiden image">';
+    const limitHiddenImg = '<img src="img/more-gray.png" alt="limit hiden image">'
 
 
 
     visibilityButton.addEventListener('click', function() {
         if (balanceImage.innerHTML === balanceValue) {
             visibilityImg.src = closedEyeSrc;
-            balanceImage.innerHTML = balanceHidenImg;
-            limitImage.innerHTML = limitHidenImg;
+            balanceImage.innerHTML = balanceHiddenImg;
+            limitImage.innerHTML = limitHiddenImg;
         } else {
             visibilityImg.src = openEyeSrc
             balanceImage.textContent = balanceValue;
