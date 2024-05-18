@@ -115,7 +115,7 @@ header img {
 
 .bank-balance-area {
   background-color: var(--white);
-  height: 200px;
+  height: 250px;
   width: 370px;
   border-radius: 15px;
 }
@@ -129,4 +129,10 @@ header img {
   display: flex;
   justify-content: space-between;
   margin: -15px 20px auto 20px;
+}
+
+.bottom-line {
+  width: 330px;
+  margin: auto;
+  border: 1px solid black;
 }
