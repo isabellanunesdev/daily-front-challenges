@@ -149,6 +149,19 @@ header img {
   cursor: pointer;
 }
 
-.bank-statement img{
+.bank-balance-area img{
   height: 40px;
+}
+
+
+.available-limit {
+  background-color: var(--gray-bkg);
+  font-weight: bolder;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 20px auto 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
