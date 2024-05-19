@@ -120,14 +120,14 @@ body {
   justify-content: space-between;
 }
 
-.show-hide {
+#btn-open-closed {
   width: 50px;
   height: 40px;
   background-color: var(--gray-bkg);
   border: none;
 }
 
-.show-hide img {
+#img-open-closed {
   height: 40px;
 }
 
@@ -185,6 +185,15 @@ body {
 .information__balance {
   margin-top: 10px;
   height: 60px;
+}
+
+#more-balance {
+  width: 40px;
+}
+
+#more-balance,
+#more-limit {
+  display: none;
 }
 
 .information__statement {
