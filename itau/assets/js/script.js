@@ -15,17 +15,17 @@ const changeVisibility = () => {
     limitViewContainer.removeChild(limitView);
 
     const showInfoElement = document.createElement("img");
-    showInfoElement.src = "./img/closed.png";
+    showInfoElement.src = "./assets/img/closed.png";
     showInfoElement.alt = "Visibilidade de dados limitada";
     showInfoElement.className = "show-info";
 
     const moneyViewElement = document.createElement("img");
-    moneyViewElement.src = "./img/more-black.png";
+    moneyViewElement.src = "./assets/img/more-black.png";
     moneyViewElement.alt = "Saldo oculto";
     moneyViewElement.className = "money-view";
 
     const limitViewElement = document.createElement("img");
-    limitViewElement.src = "./img/more-gray.png";
+    limitViewElement.src = "./assets/img/more-gray.png";
     limitViewElement.alt = "Conferir seu limite";
     limitViewElement.className = "limit-view";
 
@@ -40,7 +40,7 @@ const changeVisibility = () => {
     limitViewContainer.removeChild(limitView);
 
     const showInfoElement = document.createElement("img");
-    showInfoElement.src = "./img/open.png";
+    showInfoElement.src = "./assets/img/open.png";
     showInfoElement.alt = "Visibilidade de dados liberada";
     showInfoElement.className = "show-info";
 
