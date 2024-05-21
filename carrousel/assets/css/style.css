@@ -1,0 +1,13 @@
+:root {
+  --yellow: #0131ff;
+  --white: #ffffff;
+  --black: #0a0a0a;
+
+  --font: "Poppins", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
