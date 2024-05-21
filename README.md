@@ -8,6 +8,8 @@
 
 This is an personal for tiny front-end projects for my students to learn how to work with dom manipulation.
 
+[Figma](https://www.figma.com/design/nLVBGUpzexiYLFfcPYjLeh/Daily-front-end-challenges?node-id=0%3A1&t=BODHNRzK6GAv70jC-1)
+
 ## Run
 
 Install [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), right click on `index.html` file and then click on `Open with Live Server`.
