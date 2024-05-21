@@ -8,7 +8,7 @@
 
 ## About
 
-Draw a ballon using CSS them remove it using JavaScript.
+Draw a ballon using CSS them blow it using JavaScript.
 
 ## Run
 
