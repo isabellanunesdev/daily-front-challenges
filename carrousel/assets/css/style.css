@@ -73,11 +73,15 @@ main {
   width: 390px;
 }
 
+section {
+  margin-bottom: 30px;
+}
+
 p {
   margin: 20px;
 }
 
-.marvel-area {
+.main-area {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,7 +94,7 @@ p {
   cursor: pointer;
 }
 
-.marvel-img {
+.main-movie-img {
   width: 266.67px;
   height: 400px;
 }
