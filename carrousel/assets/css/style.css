@@ -1,7 +1,7 @@
 :root {
   --white: #fafafa;
   --black-bg: #1c1c1c;
-  --black-menu: #29292b
+  --black-menu: #29292b;
 
   --font: "Poppins", sans-serif;
 }
@@ -19,4 +19,42 @@ button {
 
 body {
   font-family: var(--font);
+  display: flex;
+  justify-content: center;
+}
+
+
+
+header {
+  height: 60px;
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--black-menu);
+}
+
+.header-left-itens {
+  color: var(--white);
+  display: flex;
+}
+
+header img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.header-left-itens img{
+  margin-left: -70px;
+  margin-right: 10px;
+}
+
+.header-left-itens p {
+  margin-top: 6px;
+}
+
+.header-right-itens {
+  margin-right: -70px;
 }
