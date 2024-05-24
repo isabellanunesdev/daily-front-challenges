@@ -17,10 +17,18 @@ button {
   border: none;
 }
 
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   font-family: var(--font);
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  color: var(--white);
 }
 
 
@@ -36,7 +44,6 @@ header {
 }
 
 .header-left-itens {
-  color: var(--white);
   display: flex;
 }
 
@@ -57,4 +64,33 @@ header img {
 
 .header-right-itens {
   margin-right: -70px;
+}
+
+
+
+main {
+  background-color: var(--black-bg);
+  width: 390px;
+}
+
+p {
+  margin: 20px;
+}
+
+.marvel-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-img {
+  width: 25px;
+  height: 25px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.marvel-img {
+  width: 266.67px;
+  height: 400px;
 }
