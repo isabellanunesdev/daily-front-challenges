@@ -6,7 +6,7 @@
 
 ## About
 
-This is an personal for tiny front-end projects for my students to learn how to work with dom manipulation.
+This is a repository for some tiny front-end projects for my students to learn how to work with dom manipulation.
 
 [Figma](https://www.figma.com/design/nLVBGUpzexiYLFfcPYjLeh/Daily-front-end-challenges?node-id=0%3A1&t=BODHNRzK6GAv70jC-1)
 
