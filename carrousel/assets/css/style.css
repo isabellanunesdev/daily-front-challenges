@@ -1,7 +1,7 @@
 :root {
   --white: #fafafa;
   --black-bg: #1c1c1c;
-  --black-menu: #29292b
+  --black-menu: #29292b;
 
   --font: "Poppins", sans-serif;
 }
@@ -17,6 +17,87 @@ button {
   border: none;
 }
 
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   font-family: var(--font);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--white);
+}
+
+
+
+header {
+  height: 60px;
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--black-menu);
+}
+
+.header-left-itens {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+header img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.header-left-itens img{
+  margin-left: -70px;
+  margin-right: 10px;
+}
+
+.header-left-itens p {
+  margin-top: 20px;
+  margin-left: 0;
+}
+
+.header-right-itens {
+  margin-right: -70px;
+}
+
+
+
+main {
+  background-color: var(--black-bg);
+  width: 390px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+p {
+  margin: 20px;
+}
+
+.main-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-img {
+  width: 25px;
+  height: 25px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.main-movie-img {
+  width: 266.67px;
+  height: 400px;
 }
