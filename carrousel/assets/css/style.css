@@ -1,7 +1,7 @@
 :root {
   --white: #fafafa;
   --black-bg: #1c1c1c;
-  --black-menu: #29292b
+  --black-menu: #29292b;
 
   --font: "Poppins", sans-serif;
 }
@@ -18,5 +18,67 @@ button {
 }
 
 body {
+  width: 100%;
+  height: 100vh;
   font-family: var(--font);
+}
+
+.container {
+  padding: 1rem 1.5rem;
+}
+
+nav {
+  width: 100%;
+  background-color: var(--black-menu);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 2rem;
+}
+
+.left-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.left-block button {
+  width: 2rem;
+  height: 2rem;
+}
+
+.left-block h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.right-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.right-block button {
+  background: none;
+  border: none;
+}
+
+main {
+  background-color: var(--black-bg);
+  height: 100%;
+}
+
+.content {
+  padding: 1rem 1.5rem;
+}
+
+h3 {
+  color: var(--white);
+  font-size: 14px;
 }
