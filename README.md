@@ -8,7 +8,17 @@
 
 This repository contains a collection of front-end projects designed as challenges for my students.
 
-[Figma with all projects](https://www.figma.com/design/nLVBGUpzexiYLFfcPYjLeh/Daily-front-end-challenges?node-id=0%3A1&t=BODHNRzK6GAv70jC-1)
+[Figma](https://www.figma.com/design/nLVBGUpzexiYLFfcPYjLeh/Daily-front-end-challenges?node-id=0%3A1&t=BODHNRzK6GAv70jC-1)
+
+### Projects
+
+[Blow up the balloon](./blow-up-the-balloon/README.md)
+
+[Itaú home](./itau-home/README.md)
+
+[Movies carrousel](./movies-carrousel/README.md)
+
+[Star Wars lightsaber](./star-wars-lightsaber/README.md)
 
 ## Run
 
